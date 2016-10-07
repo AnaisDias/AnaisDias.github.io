@@ -50,6 +50,10 @@
 	}
 /* Nav */
 
+	#nav {
+		margin-bottom: -140px;
+	}
+
 	#nav a {
 		position: relative;
 		display: inline-block;
