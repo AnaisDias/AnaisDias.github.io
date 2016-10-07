@@ -891,9 +891,7 @@
 				cursor: default;
 			}
 
-			#nav ol, ul {
-		list-style: none;
-	}
+			
 
 				#nav a {
 					font-size: 2.5em;
