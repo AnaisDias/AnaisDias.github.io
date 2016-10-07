@@ -48,6 +48,24 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
+/* Nav */
+
+	#nav a {
+		position: relative;
+		display: inline-block;
+		color: #ffffff;
+		width: 1em;
+		height: 1em;
+		line-height: 0.9em;
+		font-size: 2.5em;
+    	margin: 0 0.25em 0 0.25em;
+	}
+
+
+
+		#nav a.icon:before {
+			padding-right: 0;
+		}
 
 /* Box Model */
 
