@@ -74,6 +74,7 @@
 
 	#nav a:hover p {
 		display: block;
+		opacity: 1;
 	}
 
 
