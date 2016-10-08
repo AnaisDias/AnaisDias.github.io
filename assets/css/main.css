@@ -68,6 +68,8 @@
 
 	#nav a p {
 		display: none;
+		float: left;
+		font-size: x-small;
 	}
 
 	#nav a:hover p {
