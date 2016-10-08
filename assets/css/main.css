@@ -66,6 +66,14 @@
     	opacity: 0.35;
 	}
 
+	#nav a p {
+		display: none;
+	}
+
+	#nav a:hover p {
+		display: block;
+	}
+
 
 
 		#nav a.icon:before {
