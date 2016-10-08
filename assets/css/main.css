@@ -72,7 +72,7 @@
 		}
 
 		#nav a.active {
-			color: #ff7496;
+			border-color: #ff7496;
 		}
 
 /* Box Model */
