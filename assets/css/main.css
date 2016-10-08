@@ -71,6 +71,10 @@
 			padding-right: 0;
 		}
 
+		#nav a.active {
+			color: #ff7496;
+		}
+
 /* Box Model */
 
 	*, *:before, *:after {
