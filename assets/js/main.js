@@ -6,7 +6,7 @@
 			resizeSpeed: 600,
 
 		// Speed to fade in/out.
-			fadeSpeed: 600,
+			fadeSpeed: 300,
 
 		// Size factor.
 			sizeFactor: 11.5,
