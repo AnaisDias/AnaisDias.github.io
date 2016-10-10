@@ -898,6 +898,12 @@
 			height: 100%;
 		}
 
+		#school {	
+  margin: 0;
+  padding: 0;
+  line-height: 1.6em;
+}
+
 		.timeline {
   position: relative;
   width: 660px;
