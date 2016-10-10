@@ -6,7 +6,7 @@
 			resizeSpeed: 600,
 
 		// Speed to fade in/out.
-			fadeSpeed: 300,
+			fadeSpeed: 600,
 
 		// Size factor.
 			sizeFactor: 11.5,
@@ -123,7 +123,7 @@
 									$wrapper.removeClass('tall');
 
 							// Fade out active panel.
-								$footer.fadeTo(settings.fadeSpeed, 100);
+								$footer.fadeTo(settings.fadeSpeed, 0.0001);
 								panels[activePanelId].fadeOut(instant ? 0 : settings.fadeSpeed, function() {
 
 									// Set new active.
