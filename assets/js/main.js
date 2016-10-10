@@ -123,7 +123,7 @@
 									$wrapper.removeClass('tall');
 
 							// Fade out active panel.
-								$footer.fadeTo(settings.fadeSpeed, 0.0001);
+								$footer.fadeTo(settings.fadeSpeed, 100);
 								panels[activePanelId].fadeOut(instant ? 0 : settings.fadeSpeed, function() {
 
 									// Set new active.
