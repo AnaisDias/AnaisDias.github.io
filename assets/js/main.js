@@ -45,6 +45,7 @@
 					$footer = $('#footer'),
 					$wrapper = $('#wrapper'),
 					$nav = $('#nav'), $nav_links = $nav.find('a'),
+					$contact = $('#contactbutton'),
 					$jumplinks = $('.jumplink'),
 					$form = $('form'),
 					panels = [],
@@ -175,6 +176,28 @@
 						}
 
 					});
+
+					$contact.add($jumplinks).click(function(e) {
+						var t = $(this), href = t.attr('href'), id;
+
+						if (href.substring(0,1) == '#') {
+
+							e.preventDefault();
+							e.stopPropagation();
+
+							id = href.substring(1);
+
+							if (id in panels)
+								panels[id]._activate();
+
+						}
+
+					});
+
+
+
+
+
 
 				// Window.
 					$window
