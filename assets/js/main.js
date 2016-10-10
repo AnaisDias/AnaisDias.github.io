@@ -39,7 +39,7 @@
 			.on('+desktop', function() {
 
 				var	$body = $('body'),
-					$main = $('#main'),
+					$main = $('#notmain'),
 					$panels = $main.find('.panel'),
 					$hbw = $('html,body,window'),
 					$footer = $('#footer'),
