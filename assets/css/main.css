@@ -792,20 +792,20 @@
 
 		@media screen and (max-width: 480px) {
 
-			#main {
+			section {
 				min-width: 0;
 				width: 100%;
 				padding: 4em 2em 2.5em 2em ;
 			}
 
-				#main .avatar:before {
+				section .avatar:before {
 					left: -2em;
 					width: calc(100% + 4em);
 				}
 
 		}
 
-		body.is-loading #main {
+		body.is-loading section {
 			opacity: 0;
 			-moz-transform: rotateX(15deg);
 			-webkit-transform: rotateX(15deg);
