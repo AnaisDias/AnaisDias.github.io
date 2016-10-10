@@ -220,7 +220,8 @@
 		}
 
 	strong, b {
-		color: #313f47;
+		color: darksalmon;
+		font-weight:bold;
 	}
 
 	em, i {
