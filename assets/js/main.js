@@ -71,9 +71,9 @@
 
 					$body._reposition = function() {
 						if (skel.vars.touch && (window.orientation == 0 || window.orientation == 180))
-							$wrapper.css('padding-top', Math.max((($window.height() - (panels[activePanelId].outerHeight() + $footer.outerHeight())) / 3) - $nav.height(), 30) + 'px');
+							$wrapper.css('padding-top', Math.max((($window.height() - (panels[activePanelId].outerHeight() + $footer.outerHeight())) / 3.5) - $nav.height(), 30) + 'px');
 						else
-							$wrapper.css('padding-top', ((($window.height() - panels[firstPanelId].height()) / 3) - $nav.height()) + 'px');
+							$wrapper.css('padding-top', ((($window.height() - panels[firstPanelId].height()) / 3.5) - $nav.height()) + 'px');
 					};
 
 				// Panels.
