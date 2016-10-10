@@ -744,7 +744,8 @@
 
 	section {
 		position: relative;
-		max-width: 100%;
+		max-width: 50%;
+		margin:auto;
 		min-width: 27em;
 		padding: 3em 3em 3em 3em ;
 		background: #ffffff;
