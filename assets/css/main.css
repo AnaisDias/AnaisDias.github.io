@@ -1264,7 +1264,6 @@
 	font-weight: 800;
 }
 
-.grid figure h2,
 .grid figure p {
 	margin: 0;
 }
@@ -1302,7 +1301,6 @@ figure.effect-milo h2 {
 	position: absolute;
 	right: 0;
 	bottom: 0;
-	padding: 1em 1.2em;
 }
 
 figure.effect-milo p {
