@@ -1255,6 +1255,8 @@
 .grid figure h2 {
 	word-spacing: -0.15em;
 	font-weight: bold;
+	background-color: #129793;
+	opacity: 0.5;
 }
 
 .grid figure h2 span {
