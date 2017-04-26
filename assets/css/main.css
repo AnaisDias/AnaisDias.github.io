@@ -1154,19 +1154,19 @@
 	z-index: 14;
 }
 
-#first-direction{
+div #first-direction{
 	margin-left: 27px;
 }
 
-#second-direction{
+div #second-direction{
 	margin-right: 13px;
 }
 
-#third-direction{
+div #third-direction{
 	margin-left: -4px;
 }
 
-#fourth-direction{
+div #fourth-direction{
 	margin-right: 55px;
 }
 
