@@ -917,6 +917,7 @@
 
 		#school {	
   line-height: 1.6em;
+  max-width: 100%;
 }
 
 		.timeline {
