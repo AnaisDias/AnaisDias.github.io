@@ -960,6 +960,22 @@
   visibility: hidden;
 }
 
+div #first-direction{
+	margin-left: 27px;
+}
+
+div #second-direction{
+	margin-right: 13px;
+}
+
+div #third-direction{
+	margin-left: -4px;
+}
+
+div #fourth-direction{
+	margin-right: 55px;
+}
+
 .direction-l {
   position: relative;
   width: 300px;
@@ -1152,22 +1168,6 @@
 	position: relative;
 	margin: 4px 0 0 0;
 	z-index: 14;
-}
-
-div #first-direction{
-	margin-left: 27px;
-}
-
-div #second-direction{
-	margin-right: 13px;
-}
-
-div #third-direction{
-	margin-left: -4px;
-}
-
-div #fourth-direction{
-	margin-right: 55px;
 }
 
 .direction-l .time-wrapper {
