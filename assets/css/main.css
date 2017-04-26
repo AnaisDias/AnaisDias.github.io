@@ -118,7 +118,11 @@
 		}
 
 		.direction-l,
-.direction-r {
+.direction-r,
+#first-direction,
+#second-direction,
+#third-direction,
+#fourth-direction{
 	margin-left:0px;
 	margin-right:0px;
 }
