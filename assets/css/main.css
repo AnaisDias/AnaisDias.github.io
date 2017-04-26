@@ -1214,6 +1214,10 @@ div #fourth-direction{
 	margin-right:0px;
 }
 
+section{
+	max-width: 75%;
+}
+
 }
 
 /*Tiles*/
