@@ -1192,6 +1192,11 @@
 	margin: 1em 4em 0 4em;
 }
 
+.direction-l,
+.direction-r {
+	margin:auto;
+}
+
 }
 
 /*Tiles*/
