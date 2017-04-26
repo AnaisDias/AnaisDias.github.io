@@ -117,6 +117,12 @@
 			min-height: 1400px !important;
 		}
 
+		.direction-l,
+.direction-r {
+	margin-left:0px;
+	margin-right:0px;
+}
+
 	}
 
 	body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1213,10 +1219,6 @@ div #fourth-direction{
 .direction-r {
 	margin-left:0px;
 	margin-right:0px;
-}
-
-section#school{
-	max-width: 75%;
 }
 
 }
