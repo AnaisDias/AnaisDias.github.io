@@ -1154,6 +1154,22 @@
 	z-index: 14;
 }
 
+.first-direction{
+	margin-left: 27px;
+}
+
+.second-direction{
+	margin-right: 13px;
+}
+
+.third-direction{
+	margin-left: -4px;
+}
+
+.fourth-direction{
+	margin-right: 55px;
+}
+
 .direction-l .time-wrapper {
 	float: none;
 }
@@ -1194,7 +1210,8 @@
 
 .direction-l,
 .direction-r {
-	margin:auto;
+	margin-left:0px;
+	margin-right:0px;
 }
 
 }
